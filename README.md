@@ -1,13 +1,27 @@
-# Seller Doc
+# PixInspect
 
-This is a Flask web application for uploading product images, extracting dominant color and resolution, and saving product data.
+This is the project that is a solution for the problem statement: **"Image correctness of product on e-marketplaces"**.
+
+## Project Overview
+
+PixInspect matches the product description on the basis of color and type of product by using Google Vision AI and Python modules.
+
+- It extracts the description of products from big e-marketplaces like Amazon and Flipkart using custom-made scrapers.
+- The app then matches the product image with the description and rates the image, including quality and resolution.
+- To minimize errors from incorrect type or color from the seller side, the seller domain automatically fills in the color and type of product and also checks the image resolution.
+
+## Features
+- Automated extraction of product color and type from images using Vision AI
+- Scraping product descriptions from Amazon and Flipkart
+- Matching and rating product images based on description, color, type, and resolution
+- Seller-side automation to reduce manual errors in product listing
 
 ## Setup Instructions
 
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-link>
-   cd Seller Doc
+   cd PixInspect
    ```
 
 2. **Install dependencies:**
